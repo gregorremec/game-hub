@@ -25,3 +25,5 @@ dist-ssr
 src/services/api-client.ts
 src/services/api-client.ts
 .vercel
+
+src/assets/api-key.ts
