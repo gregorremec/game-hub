@@ -1,5 +1,6 @@
 import axios, { AxiosRequestConfig } from "axios";
-import { API_KEY } from "../assets/api-key";
+
+const API_KEY = process.env.REACT_APP_API_KEY
 
 export interface FetchResponse<T> {
     count: number
